@@ -19,7 +19,7 @@ For example if you want to send 1KB data from <i>Client</i> application to <i>Se
 </ol>
 
 # Performance
-As a result of using UDP for sending all data the, FNTP is match faster than stabndard TCP, and because of some calculations and TCP based headers communications FNTP is little bit slower than UDP, but FNTP is reliable as TCP.<br/>
+As a result of using UDP for sending all data the, FNTP is match faster than standard TCP, and because of some calculations and TCP based headers communications FNTP is little bit slower than UDP, but FNTP is reliable as TCP.<br/>
 With this combination FNTP becomes new kind of transport layer protocol which is allowing to combine best futures of TCP and UDP.
 
 # "Hello World"
