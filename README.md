@@ -2,7 +2,7 @@
 FNTP is a combination of TCP and UDP as a mixed transport layer protocol. The base  thing is that TCP works slow than UDP but it's reliable and the base idea of Flaxton FNTP protocol is to combine TCP reliable future and UDP speed together.
 <img src="http://flaxton.io/img/fntp.png" alt="FNTP image"/>
 Using this combination of TCP and UDP it makes possible to transfer all data faster using UDP and stay informed about sent data using reliable TCP.
-
+<img src="http://flaxton.io/img/fntp1.png" alt="FNTP image"/>
 # Protocol Implementation
 This FNTP protocol implementation writtent using Go programming language(<a href="http://golang.org" target="_blank">golang.org</a>).
 Also availble implementation in Node.js (<a href="http://nodejs.org" target="_blank">nodejs.org</a>) here <a href="https://github.com/tigran-bayburtsyan/nodejs-flaxton" target="_blank">nodejs-flaxton</a>.
