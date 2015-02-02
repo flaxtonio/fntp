@@ -5,7 +5,7 @@ Using this combination of TCP and UDP it makes possible to transfer all data fas
 <img src="http://flaxton.io/img/fntp1.png" alt="FNTP image"/>
 # Protocol Implementation
 This FNTP protocol implementation writtent using Go programming language(<a href="http://golang.org" target="_blank">golang.org</a>).
-Also availble implementation in Node.js (<a href="http://nodejs.org" target="_blank">nodejs.org</a>) here <a href="https://github.com/tigran-bayburtsyan/nodejs-flaxton" target="_blank">nodejs-flaxton</a>.
+Also available implementation in Node.js (<a href="http://nodejs.org" target="_blank">nodejs.org</a>) here <a href="https://github.com/tigran-bayburtsyan/nodejs-flaxton" target="_blank">nodejs-flaxton</a>.
 <br/>
 <b>How it works</b>
 <br/>
