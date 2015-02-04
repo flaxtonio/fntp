@@ -2,10 +2,10 @@
 FNTP is a combination of TCP and UDP as a mixed transport layer protocol. The base  thing is that TCP works slow than UDP but it's reliable and the base idea of Flaxton FNTP protocol is to combine TCP reliable future and UDP speed together.
 <img src="http://flaxton.io/img/fntp.png" alt="FNTP image"/>
 Using this combination of TCP and UDP it makes possible to transfer all data faster using UDP and stay informed about sent data using reliable TCP.
-
+<img src="http://flaxton.io/img/fntp1.png" alt="FNTP image"/>
 # Protocol Implementation
 This FNTP protocol implementation writtent using Go programming language(<a href="http://golang.org" target="_blank">golang.org</a>).
-Also availble implementation in Node.js (<a href="http://nodejs.org" target="_blank">nodejs.org</a>) here <a href="https://github.com/tigran-bayburtsyan/nodejs-flaxton" target="_blank">nodejs-flaxton</a>.
+Also available implementation in Node.js (<a href="http://nodejs.org" target="_blank">nodejs.org</a>) here <a href="https://github.com/tigran-bayburtsyan/nodejs-flaxton" target="_blank">nodejs-flaxton</a>.
 <br/>
 <b>How it works</b>
 <br/>
@@ -19,7 +19,7 @@ For example if you want to send 1KB data from <i>Client</i> application to <i>Se
 </ol>
 
 # Performance
-As a result of using UDP for sending all data the, FNTP is match faster than stabndard TCP, and because of some calculations and TCP based headers communications FNTP is little bit slower than UDP, but FNTP is reliable as TCP.<br/>
+As a result of using UDP for sending all data the, FNTP is match faster than standard TCP, and because of some calculations and TCP based headers communications FNTP is little bit slower than UDP, but FNTP is reliable as TCP.<br/>
 With this combination FNTP becomes new kind of transport layer protocol which is allowing to combine best futures of TCP and UDP.
 
 # "Hello World"
