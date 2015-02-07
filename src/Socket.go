@@ -223,7 +223,8 @@ func (socket *Socket) ReadUDP(rlen int, buf_receive []byte, remote *net.UDPAddr)
 		stop_data = append(stop_data, buf[0:4]...)
 		stop_data = append(stop_data, StopBytes...)
 		socket.WriteTCP(stop_data)
-		go socket.DataReceived(lib.CombineBytesMap(socket.DataIn[data_id].DataStack))
+		all_data := lib.CombineBytesMap(socket.DataIn[data_id].DataStack)
+		go socket.DataReceived(all_data[:socket.DataIn[data_id].Length])
 		delete(socket.DataIn, data_id)
 		return true
 	}
